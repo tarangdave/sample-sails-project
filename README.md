@@ -8,6 +8,14 @@ A simple signup application in Sails Framework
 
 ---
 
+
+## MySQL setup for running the app
+
++ create a database in local server `identity`
++ create a table `user`
++ add fields `id`, `name`, `email`, `createdAt`, `updatedAt` and `password`
+
+
 # install using 
 
 ```
