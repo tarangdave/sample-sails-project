@@ -1,0 +1,9 @@
+<form action="/user/create" method="post">
+  <h2>Create an account</h2>
+  <input type="text" placeholder="your name" name="name"><br>
+  <input type="text" placeholder="your title" name="title"><br>
+  <input type="text" placeholder="your email" name="email"><br>
+  <input type="password" placeholder="your password" name="password"><br>
+  <input type="submit" value="create account"><br>
+  <input type="hidden" name="_csrf" value="<%=_csrf %>"/>
+</form>
